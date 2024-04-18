@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحه خانه</title>
+</head>
+<body>
+    <h2>تست صفحه </h2>
+
+
+    {% if messages  %}
+
+    {% for i in messages %}
+        <div class="alert alert-primary" role="alert">
+          {{ i }}
+        </div>
+    {% endfor %}
+
+{% endif %}
+
+
+
+</body>
+</html>
